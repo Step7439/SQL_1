@@ -6,7 +6,7 @@ create table persons
     phone_number varchar(255) ,
     city_of_living varchar(255) ,
     surname varchar(255) not null ,
-    age int check ( age > 0 ) not null
+    age int check ( age > 0 ) not null ,
     PRIMARY KEY (name, surname, age)
 );
 
